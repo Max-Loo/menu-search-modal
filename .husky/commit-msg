@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# 校验 commit 是否符合 angular 规范
+npx --no-install commitlint --edit $1

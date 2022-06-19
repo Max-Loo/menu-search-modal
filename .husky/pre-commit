@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+# git commit 之前执行的脚本
+
+pnpm run eslint
+# git add .
