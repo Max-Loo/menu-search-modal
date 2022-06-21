@@ -1,6 +1,7 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
 # git commit 之前执行的脚本
 
 pnpm run eslint
-# git add .
+pnpm run stylelint

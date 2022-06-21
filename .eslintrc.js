@@ -19,6 +19,14 @@ module.exports = {
     'vue',
     '@typescript-eslint',
   ],
+  'overrides': [
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        '@typescript-eslint/no-explicit-any': 0,
+      },
+    },
+  ],
   'rules': {
     /**
      * https://eslint.org/docs/rules/
@@ -87,7 +95,7 @@ module.exports = {
       ignoreRegExpLiterals: true,
     }],
     'vue/max-attributes-per-line': ['warn', { singleline: 7 }],
-    'vue/name-property-casing': ['warn', 'kebab-case'],
+    'vue/name-property-casing': ['warn', 'PascalCase'],
     'vue/component-name-in-template-casing': ['warn', 'kebab-case'],
     'vue/singleline-html-element-content-newline': 'off',
     'vue/require-default-prop': 'off',
@@ -109,7 +117,6 @@ module.exports = {
     }],
     '@typescript-eslint/no-duplicate-imports': ['off'],
     '@typescript-eslint/semi': ['warn', 'never'],
-    '@typescript-eslint/no-unused-vars': ['off'],
   },
   globals: {
     'defineProps': 'readonly',
