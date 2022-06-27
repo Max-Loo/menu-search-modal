@@ -232,7 +232,7 @@ export default defineComponent({
 
     return () => (<>
       <Button
-        class="flex items-center justify-center"
+        class="!flex items-center justify-center"
         type={buttonType.value}
         size={buttonSize.value}
         shape={buttonShape.value}

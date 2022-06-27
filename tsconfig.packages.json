@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "target": "esnext",
+    "forceConsistentCasingInFileNames":true,
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": false, // @vue 里面有一些不符合规范的 export
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    // "outFile": "lib/index.d.ts",
+    "removeComments": true,
+    "declaration": true,
+    "declarationDir": "lib/MenuSearchModal",
+    "emitDeclarationOnly": true
+  },
+  "include": [
+    "packages/**/*.ts", 
+    "packages/**/*.d.ts", 
+    "packages/**/*.tsx", 
+    "packages/**/*.vue"
+  ],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

@@ -27,6 +27,11 @@ module.exports = {
       },
     },
   ],
+  ignorePatterns: [
+    'lib/*',
+    'dist/*',
+    'node_modules/*',
+  ],
   'rules': {
     /**
      * https://eslint.org/docs/rules/
