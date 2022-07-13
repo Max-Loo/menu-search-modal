@@ -16,4 +16,9 @@ describe('MenuSearchModal', () => {
     expect(wrapper.findComponent(Modal).exists()).toBeTruthy()
     expect(wrapper.findComponent(Button).exists()).toBeTruthy()
   })
+
+  test('button text', () => {
+    const wrapper = mount(MenuSearchModal)
+    expect(wrapper.props('buttonContent')).toEqual('Ctrl + K')
+  })
 })

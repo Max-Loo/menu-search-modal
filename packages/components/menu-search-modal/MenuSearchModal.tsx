@@ -32,6 +32,8 @@ type SearchResultOption = MenuSearchModalOption & {
   pathStr: string
 }
 
+const isMacOS = /Mac/i.test(navigator.userAgent)
+
 export default defineComponent({
   name: 'MenuSearchModal',
   props: {
@@ -52,7 +54,7 @@ export default defineComponent({
     },
     buttonContent: {
       type: String,
-      default: 'Ctrl + K',
+      default: isMacOS ? '⌘ + K' : 'Ctrl + K',
     },
     /**
      * modal props
