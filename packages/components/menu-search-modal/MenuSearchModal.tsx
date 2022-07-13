@@ -113,7 +113,7 @@ export default defineComponent({
       // autofocus when open modal
       nextTick(() => {
         if (props.autofocus) {
-          inputRef.value?.focus()
+          inputRef.value?.focus?.()
         }
       })
     }
@@ -234,6 +234,7 @@ export default defineComponent({
 
     return () => (<>
       <Button
+        ref="outerButton"
         class="!flex items-center justify-center"
         type={buttonType.value}
         size={buttonSize.value}
