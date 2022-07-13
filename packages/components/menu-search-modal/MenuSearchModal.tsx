@@ -101,6 +101,8 @@ export default defineComponent({
     const selectedSearchResultIndex = ref(-1)
 
     watchEffect(() => {
+      console.log('modalVisibleProxy.value', modalVisibleProxy.value)
+
       emit('update:modalVisible', modalVisibleProxy.value)
       if (!modalVisibleProxy.value) {
         closeSearchModal()
