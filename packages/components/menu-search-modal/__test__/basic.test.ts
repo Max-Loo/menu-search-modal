@@ -3,6 +3,7 @@ import { mount, shallowMount } from '@vue/test-utils'
 import MenuSearchModal, { MenuSearchModalOption } from '../index'
 import Modal from 'ant-design-vue/es/modal'
 import Button from 'ant-design-vue/es/button'
+import Input from 'ant-design-vue/es/input'
 
 const menuOptions: MenuSearchModalOption[] = []
 
@@ -50,13 +51,22 @@ describe('MenuSearchModal', () => {
   })
 
   test('search value', async () => {
-    const wrapper = shallowMount(MenuSearchModal, {
+    const wrapper = mount(MenuSearchModal, {
       props: {
-        options: menuOptions
-      }
+        options: menuOptions,
+      },
     })
 
     await wrapper.findComponent(Button).trigger('click')
-    
+    expect(wrapper.emitted('update:modalVisible')[1][0]).toBe(true)
+
+    const inputWrapper = wrapper.findComponent(Modal).findComponent({
+      placeholder: 'Search menu',
+    })
+    console.log(inputWrapper)
+
+    expect(inputWrapper.exists()).toBeTruthy()
+    inputWrapper.setValue('1-1')
+    // wrapper.
   })
 })

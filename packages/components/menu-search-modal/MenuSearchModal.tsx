@@ -101,8 +101,6 @@ export default defineComponent({
     const selectedSearchResultIndex = ref(-1)
 
     watchEffect(() => {
-      console.log('modalVisibleProxy.value', modalVisibleProxy.value)
-
       emit('update:modalVisible', modalVisibleProxy.value)
       if (!modalVisibleProxy.value) {
         closeSearchModal()
@@ -175,6 +173,7 @@ export default defineComponent({
       searchResult.value = []
       // reset the history selected index
       selectedSearchResultIndex.value = -1
+      console.log('toSearchMenu')
 
       if (!target.toLocaleString()) {
         return
