@@ -19,7 +19,7 @@
     // "outFile": "lib/index.d.ts",
     "removeComments": true,
     "declaration": true,
-    "declarationDir": "lib/MenuSearchModal",
+    "declarationDir": "lib",
     "emitDeclarationOnly": true
   },
   "include": [
