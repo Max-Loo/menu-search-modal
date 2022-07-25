@@ -1,7 +1,7 @@
 {
   "name": "menu-search-modal",
   "private": false,
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0-alpha.4",
   "description": "A menu search modal component base on Ant Design Vue",
   "keywords": [
     "vue3",
@@ -11,11 +11,11 @@
   "author": {
     "name": "Max-Loo"
   },
-  "main": "lib/umd/index.js",
-  "module": "lib/es/index.js",
-  "typings": "lib/index.d.ts",
+  "main": "lib/MenuSearchModal/index.js",
+  "module": "lib/MenuSearchModal/index.js",
+  "typings": "lib/MenuSearchModal/index.d.ts",
   "files": [
-    "lib"
+    "lib/MenuSearchModal"
   ],
   "packageManager": "pnpm@7.3.0",
   "scripts": {

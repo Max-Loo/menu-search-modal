@@ -14,7 +14,7 @@ export default defineConfig(() => {
       },
     },
     build: {
-      outDir: 'lib',
+      outDir: 'lib/MenuSearchModal',
       cssCodeSplit: false,
       lib: {
         entry: 'packages/components/menu-search-modal/index.ts',
