@@ -15,7 +15,7 @@
   "module": "lib/es/index.js",
   "typings": "lib/index.d.ts",
   "files": [
-    "lib"
+    "lib/MenuSearchModal"
   ],
   "packageManager": "pnpm@7.3.0",
   "scripts": {
