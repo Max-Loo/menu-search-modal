@@ -18,6 +18,10 @@
     "lib/MenuSearchModal"
   ],
   "packageManager": "pnpm@7.3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Max-Loo/menu-search-modal.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
