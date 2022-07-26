@@ -24,7 +24,7 @@
     "build:packages": "rm -rf lib && vue-tsc -p tsconfig.packages.json && vite build --config vite.packages.config.ts",
     "preview": "vite preview",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
-    "eslint": "eslint {src,packages}/**/*.{js,vue,ts,tsx} --fix",
+    "eslint": "eslint \"{src,packages}/**/*.{js,vue,ts,tsx}\" --fix",
     "stylelint": "stylelint src/**/*.{css,vue} --fix",
     "lint:init": "eslint --init",
     "prepare": "husky install",
