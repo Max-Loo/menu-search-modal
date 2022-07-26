@@ -1,7 +1,7 @@
 {
   "name": "menu-search-modal",
   "private": false,
-  "version": "1.0.0-alpha.5",
+  "version": "1.0.0-alpha.6",
   "description": "A menu search modal component base on Ant Design Vue",
   "keywords": [
     "vue3",
@@ -22,6 +22,7 @@
     "type": "git",
     "url": "git+https://github.com/Max-Loo/menu-search-modal.git"
   },
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
