@@ -4,6 +4,12 @@
 A popup modal component based on vue3 and antdv, that can search menu.
 
 English | [中文](./doc/README.zh-CN.md) 
+<!-- omit in toc -->
+## Examples
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/40628455/181225680-1a1398c5-ae15-41fa-9116-67630b52f69c.png">
+<img width="540" alt="image" src="https://user-images.githubusercontent.com/40628455/181225792-389221ec-4a84-4af8-acff-6173a9e10e5c.png">
+
+
 
 <!-- omit in toc -->
 ## Table of contents
