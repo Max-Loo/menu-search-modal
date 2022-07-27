@@ -5,7 +5,7 @@
 [English](../README.md) | 中文
 
 
-## Installation
+## 安装
 
 ### NPM
 
@@ -15,7 +15,21 @@ npm i -S menu-search-modal
 pnpm add -S menu-search-modal
 ```
 
-## Props
+## 用法
+
+在你需要使用此组件的地方引入它。
+```js
+import MenuSearchModal from 'menu-search-modal'
+import 'menu-search-modal/lib/MenuSearchModal/style.css'
+```
+
+如果你有使用到 `typescript`，你可能需要引入类型。
+```js
+import type { MenuSearchModalOption } from 'menu-search-modal'
+```
+
+
+## 组件参数
 | **参数**              | **说明**                                                 | **类型**                                         | **默认值**                                          |
 | --------------------- | -------------------------------------------------------- | ------------------------------------------------ | --------------------------------------------------- |
 | buttonType            | 弹窗按钮的类型，和 antdv 的 button 组件的 type 参数一致  | primary / ghost / dashed / link / text / default | default                                             |
@@ -27,7 +41,7 @@ pnpm add -S menu-search-modal
 | options               | 菜单可选项的数据                                         | MenuSearchModalOption[]                          | []                                                  |
 
 
-## Events
+## 组件事件
 | **事件** | **说明**                 | **回调函数**                         |
 | -------- | ------------------------ | ------------------------------------ |
 | select   | 点击或选择某一条菜单记录 | function({ label, value, disabled }) |

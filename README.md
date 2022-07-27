@@ -13,7 +13,18 @@ npm i -S menu-search-modal
 # or
 pnpm add -S menu-search-modal
 ```
+## Usage
 
+import the component where you want to use it.
+```js
+import MenuSearchModal from 'menu-search-modal'
+import 'menu-search-modal/lib/MenuSearchModal/style.css'
+```
+
+if you are using `typescript`, you might also need to import the type.
+```js
+import type { MenuSearchModalOption } from 'menu-search-modal'
+```
 
 ## Props
 | **Prop**              | **Description**                                          | **Type**                                         | **Default**                                          |

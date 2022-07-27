@@ -4,7 +4,7 @@ import type { PropType } from 'vue'
 import debounce from 'lodash-es/debounce'
 import '@/css/tailwind.css'
 
-// antdv components 
+// antdv components
 import Modal from 'ant-design-vue/es/modal'
 import 'ant-design-vue/es/modal/style/css'
 import Button from 'ant-design-vue/es/button'
