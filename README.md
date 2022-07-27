@@ -9,15 +9,12 @@ English | [中文](./doc/README.zh-CN.md)
 ## Table of contents
 
 - [Installation](#installation)
-  - [NPM](#npm)
 - [Usage](#usage)
 - [Props](#props)
 - [Events](#events)
 
 
 ## Installation
-### NPM
-
 ```bash
 npm i -S menu-search-modal
 # or

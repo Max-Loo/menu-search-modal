@@ -8,15 +8,12 @@
 <!-- omit in toc -->
 ## Table of contents
 - [安装](#安装)
-  - [NPM](#npm)
 - [用法](#用法)
 - [组件参数](#组件参数)
 - [组件事件](#组件事件)
 
 
 ## 安装
-
-### NPM
 
 ```bash
 npm i -S menu-search-modal
