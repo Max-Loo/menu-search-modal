@@ -6,6 +6,11 @@
 [English](../README.md) | 中文
 
 <!-- omit in toc -->
+## 示例
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/40628455/181225680-1a1398c5-ae15-41fa-9116-67630b52f69c.png">
+<img width="540" alt="image" src="https://user-images.githubusercontent.com/40628455/181225792-389221ec-4a84-4af8-acff-6173a9e10e5c.png">
+
+<!-- omit in toc -->
 ## Table of contents
 - [安装](#安装)
 - [用法](#用法)
