@@ -1,11 +1,21 @@
+<!-- omit in toc -->
 # menu-search-modal
 
 A popup modal component based on vue3 and antdv, that can search menu.
 
 English | [中文](./doc/README.zh-CN.md) 
 
-## Installation
+<!-- omit in toc -->
+## Table of contents
 
+- [Installation](#installation)
+  - [NPM](#npm)
+- [Usage](#usage)
+- [Props](#props)
+- [Events](#events)
+
+
+## Installation
 ### NPM
 
 ```bash

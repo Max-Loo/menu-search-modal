@@ -1,8 +1,17 @@
+<!-- omit in toc -->
 # menu-search-modal
 
 一个基于 vue3 和 antdv 的可以搜索菜单的弹出框组件
 
 [English](../README.md) | 中文
+
+<!-- omit in toc -->
+## Table of contents
+- [安装](#安装)
+  - [NPM](#npm)
+- [用法](#用法)
+- [组件参数](#组件参数)
+- [组件事件](#组件事件)
 
 
 ## 安装
