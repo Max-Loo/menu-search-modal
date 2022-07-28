@@ -42,13 +42,13 @@ import type { MenuSearchModalOption } from 'menu-search-modal'
 ## Props
 | **Prop**              | **Description**                                          | **Type**                                         | **Default**                                          |
 | --------------------- | -------------------------------------------------------- | ------------------------------------------------ | ---------------------------------------------------- |
-| buttonType            | Type of the button component, same as antdv's            | primary / ghost / dashed / link / text / default | default                                              |
-| buttonSize            | Size of th button component, same as antdv's             | large / middle / small                           | middle                                               |
-| buttonShape           | Shape of the button component, same as antdv's           | default / circle / round                         | default                                              |
+| buttonType            | Type of the button component, same as antdv's            | primary \| ghost \| dashed \| link \| text \| default | default                                              |
+| buttonSize            | Size of th button component, same as antdv's             | large \| middle \| small                           | middle                                               |
+| buttonShape           | Shape of the button component, same as antdv's           | default \| circle \| round                         | default                                              |
 | buttonContent         | The text inside button                                   | string                                           | `⌘ + K` in macOS, and `Ctrl + K` in windows or linux |
 | modalVisible(v-model) | The visibility of modal                                  | boolean                                          | false                                                |
 | autofocus             | Whether auto focus on the input box while open the modal | boolean                                          | true                                                 |
-| options               | The data that you want to deal with(search)              | MenuSearchModalOption[]                          | []                                                   |
+| options               | The data that you want to deal with(search)              | MenuSearchModalOption \| `{ label: string \| number, value: string \| number, disabled?: boolean, children?: MenuSearchModalOption[] }`[]                          | []                                                   |
 
 
 ## Events

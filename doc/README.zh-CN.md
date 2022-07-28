@@ -49,7 +49,7 @@ import type { MenuSearchModalOption } from 'menu-search-modal'
 | buttonContent         | 弹窗按钮的文案                                           | string                                           | 在 macOS 下为 `⌘ + K`，在 windows/linux 下为 `Ctrl + K` |
 | modalVisible(v-model) | 弹窗是否可见                                             | boolean                                          | false                                               |
 | autofocus             | 打开弹窗后是否自动聚焦到输入框                           | boolean                                          | true                                                |
-| options               | 菜单可选项的数据                                         | MenuSearchModalOption[]                          | []                                                  |
+| options               | 菜单可选项的数据                                         | MenuSearchModalOption \| `{ label: string \| number, value: string \| number, disabled?: boolean, children?: MenuSearchModalOption[] }`[]                          | []                                                  |
 
 
 ## 组件事件
